@@ -89,5 +89,10 @@ scp -O -P xxxPORT "/mnt/c/Users/Admin/Desktop/Gensyn/XXX/temp-data/userApiKey.js
 scp -O -P xxxPORT "/mnt/c/Users/Admin/Desktop/Gensyn/XXX/temp-data/userData.json.json" xxxSSH:/workspace/rl-swarm/modal-login/temp-data/
 ```
 
+You may also need this if require
+```
+chmod 600 /workspace/rl-swarm/swarm.pem
+```
+
 
 
