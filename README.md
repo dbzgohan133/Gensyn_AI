@@ -55,24 +55,28 @@ Finally, navigate into the project directory, set up the Python environment, ens
 # Attach to an existing tmux session
 tmux
 ```
-```
+
 # Navigate into the project directory
+```
 cd rl-swarm
 ```
-```
+
 # Create and activate a local Python virtual environment
+```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-```
+
 # Ensure your local code is clean and up-to-date with the main branch
+```
 git switch main
 git reset --hard
 git clean -fd
 git pull origin main
 ```
-```
+
 # Execute the run script to start the node
+```
 ./run_rl_swarm.sh
 ```
 
