@@ -51,8 +51,9 @@ git clone https://github.com/gensyn-ai/rl-swarm/
 
 # Step 5: Configure and Run the Node
 Finally, navigate into the project directory, set up the Python environment, ensure the code is up-to-date, and run the main script. It's recommended to run this inside a tmux session so it continues running if you disconnect.
-```
+
 # Attach to an existing tmux session
+```
 tmux
 ```
 
