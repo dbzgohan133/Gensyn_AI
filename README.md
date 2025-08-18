@@ -5,47 +5,56 @@ this is my personalized for best gensyn output
 
 # Step 1: System Update and Core Dependencies
 First, update your package list and install the essential tools and libraries required for compiling software and managing your system.
-```
-# Update package lists and upgrade existing packages
-apt update && apt upgrade -y
 
+# Update package lists and upgrade existing packages
+```
+apt update && apt upgrade -y
+```
 # Install essential build tools, utilities, and libraries
+```
 apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip -y
 ```
 
 # Step 2: Install Python Environment
 Next, install Python 3 and the necessary tools for managing Python packages (pip) and creating virtual environments (venv).
-```
+
 # Install Python 3, pip, venv, and development headers
+```
 apt install python3 python3-pip python3-venv python3-dev -y
 ```
 
 # Step 3: Install Node.js and Yarn
 The application requires Node.js and Yarn. These commands will add the Node.js repository, install it, and then install Yarn.
 
-```
+
 # Add the NodeSource repository for Node.js v22
+```
 curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
-
+```
 # Install Node.js (which includes npm)
+```
 apt install -y nodejs
-
+```
 # Install Yarn using the official script
+```
 curl -o- -L https://yarnpkg.com/install.sh | bash
-
+```
 # IMPORTANT: Add Yarn to your PATH for the current session.
 # You should also add this line to your ~/.bashrc file to make it permanent.
+```
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
+```
 # Verify installations (optional)
+```
 node -v
 yarn -v
 ```
 
 # Step 4: Clone the Gensyn rl-swarm Repository
 With all the dependencies installed, you can now download the project code from GitHub.
-```
+
 # Clone the repository into a new folder named 'rl-swarm'
+```
 git clone https://github.com/gensyn-ai/rl-swarm/
 ```
 
