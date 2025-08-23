@@ -88,10 +88,25 @@ git clean -fd
 git pull origin main
 ```
 
+# IF NEED TO EDIT NANO FILE
+```
+nano rgym_exp/config/rg-swarm.yaml
+
+```
 # Execute the run script to start the node
 ```
 ./run_rl_swarm.sh
 ```
+
+
+# Select Any Model of NEED
+`
+Gensyn/Qwen2.5-0.5B-Instruct
+Qwen/Qwen3-0.6B
+nvidia/AceInstruct-1.5B
+dnotitia/Smoothie-Qwen3-1.7B
+Gensyn/Qwen2.5-1.5B-Instruct
+`
 
 # Additional If using vast or Quickpot use command to Get swarm or upload 
 # if using CPU use simple smtp method to quick drag and upload
