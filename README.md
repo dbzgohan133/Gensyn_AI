@@ -125,5 +125,18 @@ You may also need this if require
 chmod 600 /workspace/rl-swarm/swarm.pem
 ```
 
+Special Issue if  node crash after 10-15 hours 
+```
+pip install --force-reinstall trl==0.19.1
+```
+
+```
+pip freeze
+```
+
+```
+bash run_rl_swarm.sh
+```
+
 
 
