@@ -138,7 +138,7 @@ pip freeze
 bash run_rl_swarm.sh
 ```
 
-
+# If Cuda version issue
 ```
 # For newer GPUs (RTX 40xx series, etc.)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
