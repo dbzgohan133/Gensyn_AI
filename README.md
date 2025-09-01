@@ -139,4 +139,13 @@ bash run_rl_swarm.sh
 ```
 
 
+```
+# For newer GPUs (RTX 40xx series, etc.)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# For older GPUs  
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+```
+
 
