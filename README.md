@@ -149,3 +149,13 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ```
 
 
+local tunneling 
+```
+sudo npm install -g localtunnel
+```
+```
+curl https://loca.lt/mytunnelpassword
+```
+```
+lt --port 3000
+```
